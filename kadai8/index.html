@@ -1,0 +1,26 @@
+<html>
+<head>
+<style>
+    button {
+        font-size: 50px:
+    }
+</style>
+</head>
+<body>
+    <button id="button">おみくじを引く</button>
+    <script>
+        const button = document.getElementById('button')
+        button.addEventListener('click', () => {
+            const num = Math.randam()
+            if(num < 0.5) {
+                alert('吉です。')
+            }　else if(num <0.8) {
+                alert('中吉です。')
+            }　else {
+                alert('大吉です。')
+            }
+            
+        })
+    </script>
+</body>
+</heml>
